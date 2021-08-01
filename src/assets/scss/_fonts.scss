@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/RobotoSlab-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_Bd';
+    font-style: normal;
+    font-weight: bold;
+    src: url('/assets/fonts/RobotoSlab-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_ExtBld';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/assets/fonts/RobotoSlab-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_Rg';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_SemiBold';
+    font-style: italic;
+    font-weight: 800;
+    src: url('/assets/fonts/RobotoSlab-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_Lt';
+    font-style: normal;
+    font-weight: lighter;
+    src: url('/assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_Md';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/RobotoSlab-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoSlab_Tn';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/RobotoSlab-Thin.ttf') format('truetype');
+}
+
+$RobotoSlab: 'RobotoSlab';
+$RobotoSlab_Bd: 'RobotoSlab_Bd';
+$RobotoSlab_Rg: 'RobotoSlab_Rg';
+$RobotoSlab_ExtBld: 'RobotoSlab_ExtBld';
+$RobotoSlab_SemiBold: 'RobotoSlab_SemiBold';
+$RobotoSlab_Lt: 'RobotoSlab_Lt';
+$RobotoSlab_Md: 'RobotoSlab_Md';
+$RobotoSlab_Tn: 'RobotoSlab_Tn';

@@ -1,0 +1,211 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../assets/scss/variables";
+@import "../assets/scss/fonts";
+.container{
+    padding-right: 7rem;
+    padding-left: 7rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+  }  
+  header {     
+    background-image: linear-gradient(to right, #000, #133357);
+    color: #ffffff;
+    padding: 22px;
+    text-align: center;
+  }
+  .header-span-1{
+    font-family:  'RobotoSlab_Rg', sans-serif;     
+  }
+  .header-span-2{
+    font-family:  'RobotoSlab_Md', sans-serif; 
+  }
+  ul {
+    font-family:  'RobotoSlab_Rg', sans-serif; 
+    list-style-type: none;
+    margin-right: 7rem;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    font-size: 26px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: $black-color;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .home-container{
+    padding-right: 10rem;
+    padding-left: 10rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+  .destination-container{        
+    padding-left: 9rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+  .promo-container{      
+    padding-left: 5rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+  .quote-container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30%;
+  }
+  #footer{
+    padding-right: 7rem;
+    padding-left: 7rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #000, #133357);
+  }
+  .welcome-img{
+      position: relative;
+      float: inherit;
+  }
+  .welcome-text-1{
+    font-size: 3.5rem;
+    font-family: 'RobotoSlab_Bd';
+  }
+  .welcome-text-2{ 
+      margin-top: 2rem;    
+    font-size: 1.4rem;
+    font-family: 'RobotoSlab_Rg';
+  }
+  .btn-default {
+    background-image: linear-gradient(to right, #000, #133357);
+    border: none;
+    color: white;
+    padding: 18px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .weather-header{
+    background-color: $sirius-color; 
+    color: white;
+    font-family: 'RobotoSlab_Bd';
+    height: 80px;
+    vertical-align: middle
+  }
+  .weather-text{
+      position: relative;
+      top: 13px;
+      left: 1rem;
+  }
+  .featured-header{
+    color: $sirius-color;
+    font-size: 2rem;
+    font-family: 'RobotoSlab_Bd';
+  }
+  .promo-text-1{
+    position: relative;
+    left: 7rem;
+    color: $white-color;
+    font-family: $RobotoSlab_Bd;
+    top:-16rem;
+    font-size: 4rem;
+  }
+  .promo-text-2{
+     position: relative;
+     left: 7rem; 
+     color: $white-color;
+     top:-15rem;
+     font-size: 2rem;
+     font-family: $RobotoSlab_Bd;
+}
+.quote-heading{
+    color: $sirius-color;
+    font-size: 2rem;
+    font-family: $RobotoSlab_Bd;
+}
+input[type=text], input[type=number], input[type=email] {
+    width: 100%;
+    padding: 18px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px $gray-medium-color solid;
+    border-radius: 3px;
+    outline: none;
+}
+label{
+    color: $gray-medium-color;
+    float: left;
+}
+.module{
+  color: $white-color;
+}
+.ulist {   
+   font-size: 1.2rem !important;
+   float: left !important;
+}
+.list{
+  float: none !important;
+  width: max-content !important;
+}
+.lista{    
+    padding: 10px 0px !important;
+    color: $white-color !important;
+    font-size: 1.2rem !important;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;  
+  height: 15rem;
+  color: $white-color; 
+  text-align: center;
+  font-size: 3rem;
+}
+/* one item */
+#cities:nth-child(1) {
+  /* -or- li:only-child { */
+      background-color: #0D7E88;
+  }  
+  /* two items */
+  #cities:nth-child(2) {
+    background-color: #D09378;
+  }  
+  /* three items */
+  #cities:nth-child(3) {
+    background-color: #405B5D;
+  }  
+  /* four items */
+  #cities:nth-child(4) {
+    background-color: #74A748;
+  }
+  .subsc{
+    position: relative;
+    top: -45px;
+    left: -11px;
+    font-size: 2rem;
+  }
+  #gallery{
+      width: auto;
+  }
+  .gallery_img{
+    border-radius: 5px;
+  }
